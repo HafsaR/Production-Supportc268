@@ -1,0 +1,107 @@
+    1  sudo yum update
+    2  ls
+    3  history
+    4  ls
+    5  clear
+    6  cd
+    7  ls
+    8  pwd
+    9  mkdir Algo1
+   10  cd Algo1
+   11  mkdir config/bin/logs/scripts
+   12  mkdir config bin logs scripts
+   13  ls
+   14  cd config/
+   15  touch config.config
+   16  cd ..
+   17  ls
+   18  touch scripts/start.sh
+   19  ls scripts/
+   20  touch scripts/stop.sh admin.sh
+   21  ls scripts/
+   22  ls scripts/admin.sh
+   23  touch scripts/admin.sh
+   24  ls scripts/
+   25  ls
+   26  touch logs/today.log
+   27  ls logs/
+   28  cd
+   29  ls -ltr
+   30  cd Algo1/
+   31  ls
+   32  touch config/variables
+   33  ls config/
+   34  cd 
+   35  ls
+   36  rm Algo1/config/variables 
+   37  ls Algo1/config/
+   38  ls
+   39  ls Algo1/
+   40  rm -rf Algo1/bin/
+   41  ls Algo1/
+   42  cd
+   43  ls
+   44  mkdir Algo1/bin
+   45  ls Algo1/
+   46  cd Algo1/
+   47  ls
+   48  mkdir logs/oldlogs
+   49  ls logs/
+   50  cd logs/oldlogs/
+   51  ls -ltrs
+   52  man ls
+   53  mkdir 2019 2018 2017
+   54  ls
+   55  touch 201ls
+   56  ls
+   57  rm 201ls
+   58  ls
+   59  touch 2017/2017.log
+   60  ls
+   61  cd 2017
+   62  ls
+   63  cd ..
+   64  ls
+   65  touch 2018/2018.log
+   66  ls 201
+   67  ls 2018
+   68  touch 2019/2019.log
+   69  cd
+   70  ls
+   71  find /Algo1 "oldlogs"
+   72  find /Algo/1 "oldlogs"
+   73  find /Algo/ "oldlogs"
+   74  find /Algo1/ "oldlogs"
+   75  ls
+   76  find readlink -f "oldconfog"
+   77  readlink -f "oldconfog"
+   78  rm /home/ec2-user/oldconfog
+   79  env
+   80  VAR=pwd
+   81  echo $VAR
+   82  $VAR
+   83  ls
+   84  history
+   85  cd
+   86  ls
+   87  find Algo1/logs/  "oldlogs"
+   88  rm Algo1/logs/oldlogs
+   89  rm -rf Algo1/logs/oldlogs/
+   90  ls
+   91  ls Algo1/logs/
+   92  cd
+   93  grep *.sh
+   94  gr
+   95  find "*.sh"
+   96  cd Algo1/
+   97  ls
+   98  cd scripts/
+   99  ls
+  100  rm s*.sh
+  101  ls
+  102  cd
+  103  ls
+  104  cd Production-Supportc268/
+  105  ls
+  106  history
+  107  history > hafsa.220916.module3

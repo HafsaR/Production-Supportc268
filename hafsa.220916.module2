@@ -1,0 +1,32 @@
+    1  ls
+    2  pwd
+    3  cd /var/log
+    4  ls
+    5  cd ..
+    6  pwd
+    7  ls
+    8  ls -l
+    9  ls -ltr
+   10  cd /
+   11  cd ~
+   12  uname --version
+   13  uname -a
+   14  cd ..
+   15  ls
+   16  man ls
+   17  cd /var
+   18  man l
+   19  man ls
+   20  ls -ltrs
+   21  uname --version
+   22  history
+   23  history > hafsa.220916.module2
+   24  cd /
+   25  ls
+   26  cd 
+   27  ls
+   28  cd  c268
+   29  ls
+   30  cd exerciseBasicCommand/
+   31  ls
+   32  history > hafsa.220916.module2
