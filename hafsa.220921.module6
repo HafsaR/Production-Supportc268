@@ -1,0 +1,53 @@
+    1  ls
+    2  ps 
+    3  ps -ef
+    4  echo $USER
+    5  ps -ef | grep $USER
+    6  ps -ef | grep -v $USER
+    7  ps $$
+    8  ps -ef $$
+    9  man ps
+   10  ps -f $$
+   11  pstree
+   12  pstree $$
+   13  pstree -shapu $$
+   14  pd pid,user,cmd
+   15  ps pid,user,cmd
+   16  ps pid,user,cmd -eo
+   17  ps -eo pid user cmd
+   18  ps -eo pis,user,cmd
+   19  ps -eo pid,user,cmd
+   20  top
+   21  ps -ef pid
+   22  ps -eo pid
+   23  ps -eo pid > list
+   24  ls
+   25  sleep 300 &
+   26  ps -ef 
+   27  ps -ef | grep sleep
+   28  kill 22416
+   29  kill 22419
+   30  ps -ef | grep sleep
+   31  top
+   32  top -u
+   33  top -u root
+   34  ping yahoo.com
+   35  traceroute yahoo.com 
+   36  traceroute yahoo.com > yahoo.route
+   37  ls
+   38  less yahoo.route 
+   39  ln -s yahoo.route route
+   40  ls
+   41  ls -l
+   42  netstat -a > ~/network.output
+   43  ls
+   44  mkdir network
+   45  ls
+   46  mv route network.output network/
+   47  ls 
+   48  cd network/
+   49  ls
+   50  cd
+   51  ifconfig 
+   52  history
+   53  history > hafsa.220921.module6
