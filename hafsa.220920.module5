@@ -1,0 +1,448 @@
+    1  sudo yum update
+    2  ls
+    3  history
+    4  ls
+    5  clear
+    6  cd
+    7  ls
+    8  pwd
+    9  mkdir Algo1
+   10  cd Algo1
+   11  mkdir config/bin/logs/scripts
+   12  mkdir config bin logs scripts
+   13  ls
+   14  cd config/
+   15  touch config.config
+   16  cd ..
+   17  ls
+   18  touch scripts/start.sh
+   19  ls scripts/
+   20  touch scripts/stop.sh admin.sh
+   21  ls scripts/
+   22  ls scripts/admin.sh
+   23  touch scripts/admin.sh
+   24  ls scripts/
+   25  ls
+   26  touch logs/today.log
+   27  ls logs/
+   28  cd
+   29  ls -ltr
+   30  cd Algo1/
+   31  ls
+   32  touch config/variables
+   33  ls config/
+   34  cd 
+   35  ls
+   36  rm Algo1/config/variables 
+   37  ls Algo1/config/
+   38  ls
+   39  ls Algo1/
+   40  rm -rf Algo1/bin/
+   41  ls Algo1/
+   42  cd
+   43  ls
+   44  mkdir Algo1/bin
+   45  ls Algo1/
+   46  cd Algo1/
+   47  ls
+   48  mkdir logs/oldlogs
+   49  ls logs/
+   50  cd logs/oldlogs/
+   51  ls -ltrs
+   52  man ls
+   53  mkdir 2019 2018 2017
+   54  ls
+   55  touch 201ls
+   56  ls
+   57  rm 201ls
+   58  ls
+   59  touch 2017/2017.log
+   60  ls
+   61  cd 2017
+   62  ls
+   63  cd ..
+   64  ls
+   65  touch 2018/2018.log
+   66  ls 201
+   67  ls 2018
+   68  touch 2019/2019.log
+   69  cd
+   70  ls
+   71  find /Algo1 "oldlogs"
+   72  find /Algo/1 "oldlogs"
+   73  find /Algo/ "oldlogs"
+   74  find /Algo1/ "oldlogs"
+   75  ls
+   76  find readlink -f "oldconfog"
+   77  readlink -f "oldconfog"
+   78  rm /home/ec2-user/oldconfog
+   79  env
+   80  VAR=pwd
+   81  echo $VAR
+   82  $VAR
+   83  ls
+   84  history
+   85  cd
+   86  ls
+   87  find Algo1/logs/  "oldlogs"
+   88  rm Algo1/logs/oldlogs
+   89  rm -rf Algo1/logs/oldlogs/
+   90  ls
+   91  ls Algo1/logs/
+   92  cd
+   93  grep *.sh
+   94  gr
+   95  find "*.sh"
+   96  cd Algo1/
+   97  ls
+   98  cd scripts/
+   99  ls
+  100  rm s*.sh
+  101  ls
+  102  cd
+  103  ls
+  104  cd Production-Supportc268/
+  105  ls
+  106  history
+  107  history > hafsa.220916.module3
+  108  ls
+  109  cat hafsa.220916.module3 
+  110  git status
+  111  cd ..
+  112  ls
+  113  cd c268
+  114  ls
+  115  cd exerciseBasicCommand/
+  116  ls
+  117  cp hafsa.220916.module2 /home/ec2-user/Production-Supportc268/
+  118  cd /home/ec2-user/Production-Supportc268/
+  119  ls
+  120  cat hafsa.220916.module2
+  121  git status
+  122  git add .
+  123  git status
+  124  git commit -m "added linux exercises module1 and module2"
+  125  git push
+  126  cd
+  127  vi fixGenerator.sh
+  128  chmod 744 fixGenerator.sh 
+  129  ./fixGenerator.sh &
+  130  ls
+  131  man readlink
+  132  readlink -f Production-Supportc268
+  133  ls
+  134  readlink -f scripts
+  135  clear
+  136  STOCK=AAPL
+  137  echo $(STOCK)
+  138  echo $STOCK
+  139  STOCK=$STOCK_US
+  140  echo $STOCK
+  141  STOCK=$(STOCK)_US
+  142  STOCK=`STOCK`_US
+  143  STOCK=$(STOCK)_US
+  144  STOCK=$STOCK_US
+  145  echo $STOCK
+  146  STOCK=AAPL
+  147  ECHO STOCK
+  148  echo STOCK
+  149  STOCK=AAPL
+  150  echo $STOCK
+  151  STOCK=$STOCK_US
+  152  echo $STOCK
+  153  STOCK=AAPL
+  154  echo $STOCK
+  155  STOCK=US_$STOCK
+  156  echo $STOCK
+  157  STOCK=`STOCK`_US
+  158  STOCK=$(STOCK)_US
+  159  PRICE=290.84
+  160  echo The current price of is $PRICe
+  161  echo The current price of is $PRICE
+  162  WHOAMI=`USER`
+  163  echo $USER
+  164  WHOAMI=`USER`
+  165  WHOAMI=$USER
+  166  echo $WHOAMI
+  167  SERVERTYPE=$(uname)
+  168  echo SERVERTYPE
+  169  echo $SERVERTYPE
+  170  CMD=uname-i
+  171  echo $CMD
+  172  echo `$CMD`
+  173  CMD="uname -i"
+  174  echo `$CMD`
+  175  cd
+  176  mkdir scripts
+  177  ls
+  178  pwd
+  179  pwd/mkdir
+  180  pwd/scripts
+  181  $PATH
+  182  path
+  183  env
+  184  ls .a
+  185  ls
+  186  ls -l .a
+  187  man ls
+  188  ls -a
+  189  $PATH
+  190  $PATH/scripts
+  191  env
+  192  cat env
+  193  ls
+  194  pwd
+  195  mkdir bin
+  196  ls
+  197  pwd
+  198  ls
+  199  $PATH
+  200  history
+  201  history > hafsa.220918.module4
+  202  ls
+  203  STOCK=AAPL
+  204  echo $STOCK
+  205  STOCK=$($STOCK)_US
+  206  STOCK=$(STOCK)_US
+  207  STOCK=$STOCK_US
+  208  echo $STOCK
+  209  pwd
+  210  env
+  211  env LOGPATH=/var/log
+  212  env -u LOGPATH
+  213  $PATH
+  214  export PATH=$PATH:/scripts
+  215  $PATH
+  216  ls
+  217  rm -rf Algo1/
+  218  ls
+  219  mkdir Payment1
+  220  cd Payment1/
+  221  mkdir logs configuration scripts
+  222  ls
+  223  touch scripts/start.sh
+  224  touch configuration/instance.properties
+  225  cd configuration/
+  226  ls
+  227  ls -l
+  228  chmod u=wx, go=r instance.properties 
+  229  chmod og=r,u=wx instance.properties 
+  230  ls -l
+  231  cd
+  232  ls
+  233  cd logs/
+  234  ls
+  235  cd ..
+  236  ls
+  237  cdsc
+  238  cd scripts/
+  239  ls
+  240  cd ..
+  241  cd Payment1/
+  242  ls
+  243  cd configuration/
+  244  ls
+  245  man cat > /home/ec2-user/cat.output
+  246  cd
+  247  pwd
+  248  ls
+  249  cat cat.output 
+  250  ls
+  251  rm -rf Payment1/
+  252  ls
+  253  man rm
+  254  ls
+  255  rm -i cat.output 
+  256  ls
+  257  mkdir temp
+  258  ls
+  259  MYTEMP=temp
+  260  echo $MYTEMP
+  261  man unset
+  262  echo $MYTEMP
+  263  MYTEMP="
+  264  "
+  265  echo $MYTEMP
+  266  history
+  267  ls
+  268  history >> hafsa.220918.module4
+  269  cat hafsa.220918.module4 
+  270  TOP
+  271  top
+  272  free
+  273  ls
+  274  cd
+  275  ls
+  276  Free
+  277  free
+  278  lostat
+  279  sar
+  280  clear
+  281  ls
+  282  ls /usr/bin/
+  283  clear
+  284  ps
+  285  ps -ef
+  286  man ls
+  287  clear
+  288  STOCK=AAPl
+  289  echo $STOCK
+  290  STOCK=$TOCK_US
+  291  echo $STOCK
+  292  STOCK=$STOCK_US
+  293  echo $STOCK
+  294  STOCK="${STOCK}_US"
+  295  echo $STOCK
+  296  STOCK=AAPL
+  297  STOCK="${STOCK}_US"
+  298  echo $STOCK
+  299  PRICE=290.84
+  300  echo The current price of is $PRICE
+  301  WHOAMI=`user`
+  302  WHOAMI=$(logname)
+  303  echo WHOAMI
+  304  echo $WHOAMI
+  305  SERVERTYPW=$(uname)
+  306  echo $SERVERTYPE
+  307  SERVERTYPE=$(uname)
+  308  echo $SERVERTYPE
+  309  CMD="uname -i"
+  310  echo $CMD
+  311  echo $($CMD)
+  312  cd
+  313  mkdir scripts
+  314  ls
+  315  echo PATH
+  316  echo $PATH
+  317  env
+  318  export PATH=$PATH:/home/ec2-user/scripts/
+  319  echo $PATH
+  320  ls
+  321  mkdir Payment1
+  322  cd Payment1/
+  323  mkdir logs configuration scripts
+  324  cd scripts/
+  325  touch instance.properties
+  326  ls
+  327  cd ..
+  328  ls
+  329  cd configuration/
+  330  touch instance.properties
+  331  ls
+  332  chmod og=r,u=rwx instance.properties 
+  333  ls -l 
+  334  chmod og-r,u-wxr instance.properties 
+  335  ls -l 
+  336  chmod og+r,u+wxr instance.properties 
+  337  ls -l
+  338  ls
+  339  cd ..
+  340  ls
+  341  cd sc
+  342  cd scripts/
+  343  ls
+  344  touch start.sh
+  345  ls
+  346  ls -l
+  347  chmod +x start.sh 
+  348  ls -l
+  349  chmod 771 start.sh
+  350  ls -l
+  351  man cat > /home/ec2-user/cat.output
+  352  cat /home/ec2-user/cat.output
+  353  cd ..
+  354  ls
+  355  cd 
+  356  ls
+  357  man find
+  358  ls
+  359  cp hafsa.220918.module4 Production-Supportc268/hafsa.220920.module4
+  360  cd Production-Supportc268/
+  361  ls
+  362  git status
+  363  git add .
+  364  git commit -m "added exercise for working with variables"
+  365  git push
+  366  clear
+  367  ps
+  368  cd ..
+  369  ls
+  370  cd
+  371  ls
+  372  pwd
+  373  ls
+  374  mv bin cat.output fixGenerator.sh hafsa.220918.module4 Payment1 scripts /home/ec2-user
+  375  ls
+  376  pwd
+  377  cd ec2-user
+  378  ls
+  379  pwd
+  380  ls
+  381  pwd
+  382  ps
+  383  ps -ef
+  384  man ps
+  385  ls
+  386  cat fixGenerator.sh 
+  387  cat -n fixGenerator.sh 
+  388  ls
+  389  cat fixlog20220920200728.log > newlog.log
+  390  mkdir logs
+  391  mv newlog.log logs/newlog.log
+  392  ls
+  393  ls logs/
+  394  cat fixlog20220920200654.log >> logs/newlog.log 
+  395  ln -s Daily logs/newlog.log 
+  396  ls
+  397  man ln
+  398  ln -s Daily logs/newlog.log 
+  399  ln -s logs/newlog.log Daily
+  400  ls
+  401  ls -l
+  402  cd
+  403  less fixlog20220920200654.log 
+  404  grep 35=D 
+  405  grep 35=D fixlog20220920200654.log 
+  406  ls
+  407  grep 35=D fixlog20220920200728.log 
+  408  grep 35=D fixlog20220920200728.log | logs/newOrders.log
+  409  grep 35=D fixlog20220920200728.log > logs/newOrders.log
+  410  ls logs/newOrders.log 
+  411  cp logs/newOrders.log newOrders.log
+  412  ls
+  413  cat newOrders.log 
+  414  clear
+  415  wc -l newOrders.log 
+  416  grep 54=1 fixlog* > logs/buyMessages.log
+  417  ls
+  418  wc -l logs/buyMessages.log 
+  419  ls
+  420  clear
+  421  ls
+  422  grep 35=d logs/buyMessages.log | wc -l
+  423  grep -v 35=D fixlog* > logs/noNewOrders.log 
+  424  ls logs/noNewOrders.log 
+  425  wc logs/noNewOrders.log 
+  426  tail -n5 logs/noNewOrders.log 
+  427  man tail
+  428  vi fixlog20220920200728.log 
+  429  head -n2 fixlog*
+  430  grep -i aapl fixlog* 
+  431  grep -i aapl fixlog* | head -n2 
+  432  ls
+  433  ln -s fixGenerator.sh fix
+  434  ls
+  435  ls -l
+  436  tail -f fixlog* | grep 35=D
+  437  tail -f fixlog* | grep 35=D &
+  438  mkdir superLogs
+  439  ls
+  440  cp logs/* superLogs/
+  441  ls superLogs/
+  442  grep -i fb fixlog* | wc 
+  443  man grep
+  444  grep -c FB fixlog*
+  445  wc -w fixlog*
+  446  grep 35=D fixlog* | grep NFLX | wc -l
+  447  history
+  448  history > hafsa.220920.module5
