@@ -1,0 +1,38 @@
+    1  history
+    2  TEXT="The number is"
+    3  for i in {1..25}; do echo $TEXT $i; done
+    4  for i in {1..25}; do echo $TEXT $i; done > forloop.out
+    5  ls
+    6  cat forloop.out 
+    7  sed 's/\the\ number\ is/"the number is not' forloop.out 
+    8  sed 's/\the\ number\ is/"the number is not"' forloop.out 
+    9  sed 's/\the\ number\ is/the number is not' forloop.out 
+   10  sed 's/\the\ number\ is/the number is not/' forloop.out 
+   11  sed 's/\The\ number\ is/the number is not/' forloop.out 
+   12  sed 's/\The\ number\ is/the number is not/g' forloop.out 
+   13  sed 's/\The\ number\ is/the number is not/g' forloop.out > forloop2.out
+   14  ls
+   15  cat forloop2.out 
+   16  vi exerciseShall.sh
+   17  chmod 700 exerciseShall.sh 
+   18  ./exerciseShall.sh 
+   19  vi exerciseShall.sh
+   20  ./exerciseShall.sh 
+   21  vi exerciseShall.sh
+   22  date
+   23  date +%YYYY.%mm.%dd
+   24  date +%YYY.%mm.%dd
+   25  date +%YY.%mm.%dd
+   26  date +%Y.%mm.%dd
+   27  date +%Y.%m.%d
+   28  TODAY='date +%d.%m.%Y'
+   29  echo $TODAY
+   30  echo $($TODAY)
+   31  TODAY=`date +%d.%m.%Y`
+   32  echo $TODAY
+   33  GENDATE="date +%d.%m.%Y"
+   34  touch output.log.$($GENDATE)
+   35  ls
+   36  ls -l | grep output*
+   37  history
+   38  history > hafsa.$($GENDATE).module1112
